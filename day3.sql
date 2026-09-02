@@ -42,3 +42,17 @@ FROM orders
 ORDER BY order_date DESC;
 
 
+
+
+-- Static (Fixed) Values 
+SELECT  
+	id ,
+	first_name ,
+	'New Customers' AS customer_type
+FROM customers ;
+
+
+/* 
+Highlight & Execute :
+You can quickly execute a specific command without others by highlighting it and creating a query so that only the highlighted command will be executed.
+*/
